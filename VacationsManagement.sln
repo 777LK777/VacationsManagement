@@ -1,8 +1,30 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{AA0DEEBB-2C10-438A-ABEA-5C8C84691D5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VacationService", "Services\VacationService\VacationService.csproj", "{F487EB52-8F5A-4138-9E06-3F7CECB01C0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{EB96ED91-A9E1-4F3B-931C-008EFEFF36AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VacationServiceTests", "Tests\VacationServiceTests\VacationServiceTests.csproj", "{5B191F24-2836-4DE9-A9AF-9701ADEEF6B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F487EB52-8F5A-4138-9E06-3F7CECB01C0C} = {AA0DEEBB-2C10-438A-ABEA-5C8C84691D5C}
+		{5B191F24-2836-4DE9-A9AF-9701ADEEF6B9} = {EB96ED91-A9E1-4F3B-931C-008EFEFF36AB}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F487EB52-8F5A-4138-9E06-3F7CECB01C0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F487EB52-8F5A-4138-9E06-3F7CECB01C0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F487EB52-8F5A-4138-9E06-3F7CECB01C0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F487EB52-8F5A-4138-9E06-3F7CECB01C0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B191F24-2836-4DE9-A9AF-9701ADEEF6B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B191F24-2836-4DE9-A9AF-9701ADEEF6B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B191F24-2836-4DE9-A9AF-9701ADEEF6B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B191F24-2836-4DE9-A9AF-9701ADEEF6B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
